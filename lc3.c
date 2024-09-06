@@ -10,6 +10,8 @@
 #include <sys/termios.h>
 #include <sys/mman.h>
 
+//https://www.jmeiners.com/lc3-vm
+
 #define MEMORY_MAX (1 << 16)
 uint16_t memory[MEMORY_MAX];
 
